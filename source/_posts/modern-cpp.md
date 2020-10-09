@@ -101,7 +101,7 @@ A few days ago I watched a talk called "Modernizing Legacy C++ Code" where they 
 
 I'm not suprised, I'm a huge fan of RAII. Not only it makes code cleaner, thus reducing bugs and memory leaks, it also has an extremely low performance impact (compared to golang's [defer](https://lk4d4.darth.io/posts/defer/), which is used for the same purpose)
 
-If Your'e interfacing C code, consider creating a scope guard. I use my home-baked [defer](https://oded.blog/2017/10/05/go-defer-in-cpp/)-clone for that purpose.
+If Your'e interfacing C code, consider creating a scope guard. I use my home-baked [defer](https://oded.dev/2017/10/05/go-defer-in-cpp/)-clone for that purpose.
 
 ### Const-Qualify Everything
 

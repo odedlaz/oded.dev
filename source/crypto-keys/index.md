@@ -24,7 +24,7 @@ You can also verify my online identities on [Keybase.io](https://keybase.io/oded
 * 013C 82E4 CB97 FD9B 0625 EFDF B505 EE97 E105 D69A
 * B73F D2D5 B0AC 78F7 5CBF C304 60E2 7E23 6BA3 48BA
 
-My public key is available at: [MIT Key Server](https://pgp.mit.edu/pks/lookup?search=odedlaz%40gmail.com), [SKS Keyservers](https://sks-keyservers.net/pks/lookup?search=odedlaz%40gmail.com) & [oded.blog](/.well-known/odedlaz.asc)
+My public key is available at: [MIT Key Server](https://pgp.mit.edu/pks/lookup?search=odedlaz%40gmail.com), [SKS Keyservers](https://sks-keyservers.net/pks/lookup?search=odedlaz%40gmail.com) & [oded.dev](/.well-known/odedlaz.asc)
 
 All my [git](https://git-scm.com/) commits since *March 10, 2017* should be signed by these keys.
 

@@ -121,7 +121,7 @@ After each phase I checked to see the results. At some point I started deploying
 
 ## Optimizations
 
-All the steps detailed below are [part of my Gulpfile](https://github.com/odedlaz/oded.blog/blob/master/Gulpfile.js). Feel free to look at it & even offer suggestions. Remember, I'm not a WebDev so I'm probably doing some things wrong!
+All the steps detailed below are [part of my Gulpfile](https://github.com/odedlaz/oded.dev/blob/master/Gulpfile.js). Feel free to look at it & even offer suggestions. Remember, I'm not a WebDev so I'm probably doing some things wrong!
 
 ### Minify html, js and css
 
@@ -252,7 +252,7 @@ I also added a robots.txt file, which is completely redudnant in my opinion, but
 
 All the steps I outlined are really manual. I hate manual work. Instead, I set up [CircleCI](https://circleci.com) to do all the manual work for me.
 
-Now every time I push something to the blog's github repository ([oded.blog](https://github.com/odedlaz/oded.blog)) the follwoing happens:
+Now every time I push something to the blog's github repository ([oded.dev](https://github.com/odedlaz/oded.blog)) the follwoing happens:
 1. CircleCI checks out the code from GitHub
 2. CircleCI installs all the dependencies Hexo needs to build the website
 3. CircleCI runs gulp, which in turn -

@@ -11,7 +11,7 @@ language: en
 timezone:
 
 
-url: https://oded.blog
+url: https://oded.dev
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

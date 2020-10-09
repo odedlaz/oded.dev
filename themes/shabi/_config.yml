@@ -24,9 +24,9 @@ customize:
     favicon: # path to favicon
     social_links:
         github: https://github.com/odedlaz
-        facebook: https://facebook.com/oded.blog
+        facebook: https://facebook.com/oded.dev
         linkedin: https://linkedin.com/in/odedlaz
-        rss: https://oded.blog/atom.xml
+        rss: https://oded.dev/atom.xml
         # twitter: https://twitter.com/odedlaz
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
@@ -44,11 +44,11 @@ search:
 # Comment
 comment:
     disqus: # thoughts-data-bugs
-    isso: # isso.oded.blog
+    isso: # isso.oded.dev
     facebook: # enter app id
     gitment:
         # owner: odedlaz
-        # repo: oded.blog.comments
+        # repo: oded.dev.comments
         # client_id: c0d55076889ae2a8f33d
         # client_secret: i<3hummus
 
