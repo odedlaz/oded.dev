@@ -17,7 +17,6 @@ var jpegtran = require('imagemin-jpegtran');
 var yaml = require('yamljs');
 var URL = require('url-parse');
 var autoprefixer = require('gulp-autoprefixer');
-var cloudflare = require('gulp-cloudflare');
 var browserify = require('gulp-browserify');
 var request = require('request');
 
@@ -74,7 +73,7 @@ gulp.task('css-compress', (cb) => {
   pump(
       [
         gulp.src('./public/**/*.css'), autoprefixer(),
-        minifyCss({debug : true, level : 1, rebase : false},
+        minifyCss({debug : false, level : 1, rebase : false},
                   (details) => {
                     console.log(details.name + ': ' +
                                 details.stats.originalSize + ' => ' +
@@ -154,24 +153,16 @@ gulp.task('browserify', (cb) => {
   pump(
       [
         gulp.src('./public/js/bootstrap.js'),
-        browserify({insertGlobals : true, debug : true}), uglify(),
+        browserify({insertGlobals : true, debug: false}), uglify(),
         gulp.dest('./public/js')
       ],
       cb);
 });
 
-gulp.task('fix-katex-css-font-path', () => {
-  var url = yaml.load('_config.yml').url;
-  return gulp.src('./public/css/katex.min.css')
-      .pipe(replace(/url\("fonts/g, 'url("' + url + '/fonts/katex'))
-      .pipe(gulp.dest('./public/css'));
-});
-
 gulp.task('build', gulp.series('hexo-clean',
                                'hexo-generate',
-                               gulp.parallel('browserify',
-                                              'fix-css-font-path',
-                                             'fix-katex-css-font-path')));
+                               gulp.series('browserify',
+                                              'fix-css-font-path')));
 
 gulp.task('default', gulp.series('build', 'text-compress'));
 

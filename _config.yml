@@ -69,6 +69,7 @@ theme: chewie
 # gfm
 markdown: 'default'
 
+# depends on: hexo-deployer-git
 deploy:
   - type: git
     repo: git@github.com:odedlaz/odedlaz.github.io.git
@@ -77,6 +78,7 @@ deploy:
     extend_dirs:
       - .well-known
 
+# depends on: hexo-generator-feed
 feed:
   type: atom
   path: /atom.xml
@@ -84,12 +86,14 @@ feed:
   hub:
   content:
 
+# depends on: hexo-admin
 admin:
     name: admin
     password: admin # haha. only localhost, don't worry!
     secret: i<3hummus
     expire: 60*1
 
+# depends on: hexo-generator-json-content (needed by insight search)
 jsonContent:
   meta: false
   keywords: false
@@ -123,3 +127,9 @@ jsonContent:
     content: false
     categories: true
     tags: true
+
+math:
+   katex:
+      css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+      options:
+         throwOnError: false

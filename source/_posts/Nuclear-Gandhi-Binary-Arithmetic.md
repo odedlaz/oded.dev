@@ -29,20 +29,20 @@ Don't worry. I'm not going to dive in too deep. There's a plethora of blog posts
 I'll explain just enough in order for you to understand what's going on.
 
 ### Integer representation
-$$ {5_{10}} $$ in 8-bit binary is $$ {00000101_2} $$, pretty straight forward.
-But what about $$ {-5_{10}} $$? How is it implemented? lets draft a possible solution.
+{% katex %} {5_{10}} {% endkatex %} in 8-bit binary is {% katex %} {00000101_2} {% endkatex %}, pretty straight forward.
+But what about {% katex %} {-5_{10}} {% endkatex %}? How is it implemented? lets draft a possible solution.
 
 First, we need to know the sign of the number. We'll reserve the most significant bit for the sign, and use the rest as the values. Second, We'll make sure we don't break compatibility and set the sign bit for positive numbers to zero, and negative numbers to one. In this scenario a 
 signed 8-bit number would range from -127 to 127.
 
 
-Now, in our hacky system, $$ {5_{10}} $$ won't change, and $$ {-5_{10}} $$ will be $$ {10000101_2} $$.
+Now, in our hacky system, {% katex %} {5_{10}} {% endkatex %} won't change, and {% katex %} {-5_{10}} {% endkatex %} will be {% katex %} {10000101_2} {% endkatex %}.
 
 But here's the catch - regular arithmetic doesn't work:
 
-$$
+{% katex %}
 {5_{10}} + {-5_{10}} = {00000101_2} + {10000101_2} = {10001010_2} = {-10_{10}} \ne 0
-$$
+{% endkatex %}
 
 We can build custom assembly arithmetic, but that's an over-kill.
 
@@ -61,7 +61,7 @@ int x = 5;
 int negativeX = ~x + 1;
 ```
 
-For example, addition of $$ {5_{10}} $$ and $$ {-5_{10}} $$ works like we expect: $$ {5_{10}} + {-5_{10}} = {00000101_2} + {11111011_2} = {00000000_2} $$
+For example, addition of {% katex %} {5_{10}} {% endkatex %} and {% katex %} {-5_{10}} {% endkatex %} works like we expect: {% katex %} {5_{10}} + {-5_{10}} = {00000101_2} + {11111011_2} = {00000000_2} {% endkatex %}
 
 More information is out of scope for this blog post. If you're interested, start from the answers for [What is “2's Complement”?](https://stackoverflow.com/questions/1049722/what-is-2s-complement) on StackOverflow.
 
@@ -69,9 +69,9 @@ More information is out of scope for this blog post. If you're interested, start
 
 A Civilization's aggression level was saved as an `unsigned char`, which can't represent negative values.
 
-Gandhi's aggression level started at $$ {1_{10}} $$, and when democracy arrived, it was reduced by two: $$ {1_{10}} - {2_{10}} = {00000001_2} - {00000010_2} = {00000001_2} {\color{red} +} {11111110_2} = {11111111_2} $$
+Gandhi's aggression level started at {% katex %} {1_{10}} {% endkatex %}, and when democracy arrived, it was reduced by two: {% katex %} {1_{10}} - {2_{10}} = {00000001_2} - {00000010_2} = {00000001_2} {\color{red} +} {11111110_2} = {11111111_2} {% endkatex %}
 
-if the aggression level variable was signed, then the binary would be interpreted as $$ {-1_{10}}$$, which is what we'd expect. Instead, it was unsigned, which means it got interpreted as $$ {255_{10}}$$.
+if the aggression level variable was signed, then the binary would be interpreted as {% katex %} {-1_{10}}{% endkatex %}, which is what we'd expect. Instead, it was unsigned, which means it got interpreted as {% katex %} {255_{10}}{% endkatex %}.
 
 ... And Gandhi turned from a pacifist into a warmonger: *"Greating from M. Gandhi, ruler and king of the Indians... Our words are backed with NUCLEAR WEAPONS!"*
 ![](/images/2017/05/nuclear-gandhi.jpg)
