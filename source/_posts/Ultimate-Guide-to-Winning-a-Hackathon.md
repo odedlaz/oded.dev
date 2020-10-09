@@ -3,7 +3,7 @@ tags:
   - hackathon
 id: 115
 updated: 2017-05-10 20:54:35
-permalink: ultimate-guide-to-winning-a-hackathon
+new_post_name: ultimate-guide-to-winning-a-hackathon
 categories:
   - thoughts
 date: 2017-05-10 12:11:00

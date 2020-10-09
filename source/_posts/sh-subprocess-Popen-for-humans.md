@@ -4,7 +4,7 @@ tags:
   - python
 id: 87
 updated: '2017-03-04 20:35:25'
-permalink: sh-subprocess-popen-for-humans
+new_post_name: sh-subprocess-popen-for-humans
 categories:
   - programming
 date: 2017-02-13 16:37:00

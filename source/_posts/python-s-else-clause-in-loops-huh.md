@@ -3,7 +3,7 @@ tags:
   - python
 id: 30
 updated: '2017-02-28 19:10:58'
-permalink: pythons-else-clause-in-loops-huh
+new_post_name: pythons-else-clause-in-loops-huh
 categories:
   - programming
 date: 2014-07-28 15:06:00

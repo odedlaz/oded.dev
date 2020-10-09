@@ -2,7 +2,7 @@ title: choose a strong password (explained)
 tags: []
 id: 43
 updated: '2017-03-07 20:15:11'
-permalink: choose-a-strong-password-explained
+new_post_name: choose-a-strong-password-explained
 categories:
   - thoughts
   - infosec

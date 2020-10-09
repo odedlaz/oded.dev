@@ -1,6 +1,6 @@
 title: You're not a Java Developer
 tags: []
-permalink: you-are-not-a-java-dev
+new_post_name: you-are-not-a-java-dev
 categories:
   - thoughts
   - programming

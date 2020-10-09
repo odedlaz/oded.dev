@@ -4,7 +4,7 @@ tags:
   - idiom
 id: 47
 updated: '2017-03-07 20:18:12'
-permalink: hettingers-iterator-with-sentinel-idiom
+new_post_name: hettingers-iterator-with-sentinel-idiom
 categories:
   - programming
 date: 2015-01-06 08:34:00

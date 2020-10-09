@@ -3,7 +3,7 @@ tags:
   - python
 id: 57
 updated: '2017-03-07 20:04:55'
-permalink: python-string-concat
+new_post_name: python-string-concat
 categories:
   - programming
 date: 2016-11-28 14:30:00

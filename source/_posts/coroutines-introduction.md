@@ -5,7 +5,7 @@ tags:
   - ''
 id: 103
 updated: '2017-07-05 19:47:09'
-permalink: python-coroutines-introduction
+new_post_name: python-coroutines-introduction
 categories:
   - programming
 date: 2017-04-11 08:05:00

@@ -3,7 +3,7 @@ tags:
   - python
 id: 24
 updated: '2017-03-05 14:42:55'
-permalink: how-to-create-a-local-pypi-mirror
+new_post_name: how-to-create-a-local-pypi-mirror
 categories:
   - devops
   - ''

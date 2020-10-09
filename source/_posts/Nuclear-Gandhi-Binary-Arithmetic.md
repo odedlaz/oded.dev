@@ -4,7 +4,7 @@ tags:
   - math
 id: 113
 updated: '2017-05-08 06:45:43'
-permalink: nuclear-gandhi
+new_post_name: nuclear-gandhi
 categories:
   - programming
 date: 2017-05-07 17:04:00

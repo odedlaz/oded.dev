@@ -5,7 +5,7 @@ tags:
   - direnv
 id: 68
 updated: '2017-03-28 08:25:14'
-permalink: direnv
+new_post_name: direnv
 categories:
   - devops
   - ''

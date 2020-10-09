@@ -4,7 +4,7 @@ title: >-
 tags: []
 id: 126
 updated: '2017-06-06 13:36:39'
-permalink: destroy-db-rant
+new_post_name: destroy-db-rant
 categories:
   - thoughts
   - general

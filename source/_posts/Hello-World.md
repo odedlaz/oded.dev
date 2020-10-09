@@ -1,7 +1,7 @@
 title: 'Hello, World!'
 id: 2
 updated: '2017-01-31 21:25:53'
-permalink: hello-world-2
+new_post_name: hello-world-2
 tags: []
 categories:
   - announcement

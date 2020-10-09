@@ -4,7 +4,7 @@ tags:
   - ghost
 id: 118
 updated: '2017-05-22 21:26:07'
-permalink: may-2017-major-outage
+new_post_name: may-2017-major-outage
 categories:
   - announcement
   - blog

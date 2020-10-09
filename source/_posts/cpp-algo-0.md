@@ -1,7 +1,7 @@
 title: 'C++ <algorithm> Series #0'
 tags:
   - c++
-permalink: cpp-algorithm-series-0
+new_post_name: cpp-algorithm-series-0
 categories:
   - programming
 date: 2017-11-3 14:43:00

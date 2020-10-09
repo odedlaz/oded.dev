@@ -2,7 +2,7 @@ title: Implementing Go's defer keyword in C++
 tags:
   - c++
   - golang
-permalink: go-defer-in-cpp
+new_post_name: go-defer-in-cpp
 categories:
   - programming
 date: 2017-10-5 11:24:00

@@ -3,7 +3,7 @@ tags:
   - golang
 id: 88
 updated: '2017-02-27 15:10:49'
-permalink: another-take-on-error-handling-in-go
+new_post_name: another-take-on-error-handling-in-go
 categories:
   - programming
 date: 2017-02-18 10:03:00

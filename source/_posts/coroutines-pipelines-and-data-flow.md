@@ -6,7 +6,7 @@ tags:
   - ''
 id: 104
 updated: '2017-07-05 19:49:10'
-permalink: python-coroutines-pipelines-and-data-flow
+new_post_name: python-coroutines-pipelines-and-data-flow
 categories:
   - programming
 date: 2017-04-11 10:04:00

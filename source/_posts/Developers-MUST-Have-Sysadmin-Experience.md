@@ -2,7 +2,7 @@ title: Developers NEED SysAdmin Experience
 tags: []
 id: 70
 updated: '2017-03-07 19:34:33'
-permalink: developers-must-have-sysadmin-experience
+new_post_name: developers-must-have-sysadmin-experience
 categories:
   - thoughts
   - devops

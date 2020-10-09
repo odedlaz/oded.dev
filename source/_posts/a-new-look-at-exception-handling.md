@@ -3,7 +3,7 @@ tags:
   - python
 id: 13
 updated: '2017-03-05 14:43:43'
-permalink: a-new-look-at-exception-handling
+new_post_name: a-new-look-at-exception-handling
 categories:
   - programming
 date: 2014-07-14 13:40:00

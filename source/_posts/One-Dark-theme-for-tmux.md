@@ -5,7 +5,7 @@ tags:
   - project
 id: 74
 updated: '2017-03-07 19:26:25'
-permalink: one-dark-tmux-theme
+new_post_name: one-dark-tmux-theme
 categories:
   - devops
   - ''

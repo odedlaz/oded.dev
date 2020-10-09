@@ -4,7 +4,7 @@ tags:
   - data-structures
 id: 123
 updated: '2017-05-31 15:25:51'
-permalink: the-mighty-dictionary
+new_post_name: the-mighty-dictionary
 categories:
   - programming
 date: 2017-05-30 15:29:00

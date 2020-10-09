@@ -4,7 +4,7 @@ tags:
   - python
 id: 58
 updated: 2017-05-19 20:59:53
-permalink: vs-dict
+new_post_name: vs-dict
 categories:
   - programming
   - ''

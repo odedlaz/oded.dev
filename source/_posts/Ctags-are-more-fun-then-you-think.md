@@ -5,7 +5,7 @@ tags:
   - productivity
 id: 112
 updated: '2017-05-10 12:57:50'
-permalink: ctags-are-fun
+new_post_name: ctags-are-fun
 categories:
   - devops
   - ''

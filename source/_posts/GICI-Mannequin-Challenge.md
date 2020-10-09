@@ -3,7 +3,7 @@ tags:
   - gici
 id: 64
 updated: '2017-03-07 19:48:51'
-permalink: gici-mannequin-challenge
+new_post_name: gici-mannequin-challenge
 categories:
   - general
   - ''

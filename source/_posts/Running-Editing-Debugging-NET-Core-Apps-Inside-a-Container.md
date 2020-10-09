@@ -7,7 +7,7 @@ tags:
   - ''
 id: 135
 updated: '2017-06-26 16:58:21'
-permalink: dotnet-core-vscode-docker
+new_post_name: dotnet-core-vscode-docker
 categories:
   - devops
   - ''

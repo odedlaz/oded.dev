@@ -7,7 +7,7 @@ tags:
   - tmux
 id: 65
 updated: '2017-03-07 19:44:45'
-permalink: byobu-plus-vim-equals-love
+new_post_name: byobu-plus-vim-equals-love
 categories:
   - devops
 date: 2016-12-20 13:23:00

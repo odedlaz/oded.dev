@@ -4,7 +4,7 @@ tags:
   - productivity
 id: 96
 updated: 2017-03-28 08:24:30
-permalink: fzf-fuzzy-finder-on-stereoids
+new_post_name: fzf-fuzzy-finder-on-stereoids
 categories:
   - devops
   - ''

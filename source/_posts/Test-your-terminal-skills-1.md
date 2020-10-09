@@ -5,7 +5,7 @@ tags:
   - awk
 id: 100
 updated: '2017-04-11 13:01:16'
-permalink: test-terminal-skills-1
+new_post_name: test-terminal-skills-1
 categories:
   - devops
   - ''

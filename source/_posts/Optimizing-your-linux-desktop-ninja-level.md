@@ -4,7 +4,7 @@ tags:
   - productivity
 id: 53
 updated: '2017-03-07 20:13:16'
-permalink: optimizing-your-linux-distro-ninja-level
+new_post_name: optimizing-your-linux-distro-ninja-level
 categories:
   - devops
   - ''

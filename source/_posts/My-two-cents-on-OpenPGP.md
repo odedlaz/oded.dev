@@ -3,7 +3,7 @@ tags:
   - pgp
 id: 94
 updated: '2017-03-13 22:19:02'
-permalink: my-two-cents-on-openpgp
+new_post_name: my-two-cents-on-openpgp
 categories:
   - thoughts
   - infosec

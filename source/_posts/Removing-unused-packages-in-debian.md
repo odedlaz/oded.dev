@@ -4,7 +4,7 @@ tags:
   - debian
 id: 72
 updated: '2017-03-07 19:35:01'
-permalink: removing-unused-packages
+new_post_name: removing-unused-packages
 categories:
   - devops
   - ''

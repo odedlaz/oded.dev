@@ -3,7 +3,7 @@ tags:
   - python
 id: 76
 updated: '2017-03-01 08:18:11'
-permalink: python-default-argument-blunders
+new_post_name: python-default-argument-blunders
 categories:
   - programming
 date: 2014-09-07 11:01:00

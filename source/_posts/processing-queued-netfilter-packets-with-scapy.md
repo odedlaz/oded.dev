@@ -6,7 +6,7 @@ tags:
   - ''
 id: 37
 updated: '2017-03-05 15:46:11'
-permalink: processing-queued-netfilter-packets-with-scapy
+new_post_name: processing-queued-netfilter-packets-with-scapy
 categories:
   - programming
 date: 2014-07-28 15:22:00

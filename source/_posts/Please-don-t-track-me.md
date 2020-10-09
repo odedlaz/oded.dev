@@ -4,7 +4,7 @@ tags:
   - tor
 id: 89
 updated: '2017-02-28 19:40:18'
-permalink: please-dont-track-me
+new_post_name: please-dont-track-me
 categories:
   - thoughts
   - infosec

@@ -3,7 +3,7 @@ tags:
   - c
 id: 109
 updated: '2017-05-08 13:14:10'
-permalink: floating-point
+new_post_name: floating-point
 categories:
   - programming
 date: 2017-05-01 06:15:00

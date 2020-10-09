@@ -4,7 +4,7 @@ tags:
   - idiom
 id: 48
 updated: '2017-03-07 20:19:00'
-permalink: get-first-item-in-iterable-idiom
+new_post_name: get-first-item-in-iterable-idiom
 categories:
   - programming
 date: 2015-01-08 10:39:00

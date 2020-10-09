@@ -3,7 +3,7 @@ tags:
   - hackathon
 id: 108
 updated: '2017-05-06 10:15:52'
-permalink: 1st-place-hackidc
+new_post_name: 1st-place-hackidc
 categories:
   - general
   - ''

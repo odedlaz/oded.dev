@@ -5,7 +5,7 @@ tags:
   - project
 id: 67
 updated: '2017-03-07 19:36:36'
-permalink: efficient-clustering-of-masscan-results
+new_post_name: efficient-clustering-of-masscan-results
 categories:
   - programming
 date: 2016-12-27 13:41:00

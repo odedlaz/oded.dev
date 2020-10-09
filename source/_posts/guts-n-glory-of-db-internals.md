@@ -1,7 +1,7 @@
 title: 'The Guts n’ Glory of Database Internals'
 tags:
   - databases
-permalink: the-guts-n-glory-of-database-internals 
+new_post_name: the-guts-n-glory-of-database-internals 
 categories:
   - devops
   - programming

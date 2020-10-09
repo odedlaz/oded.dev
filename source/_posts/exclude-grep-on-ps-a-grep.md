@@ -3,7 +3,7 @@ tags:
   - linux
 id: 54
 updated: '2017-03-07 20:10:02'
-permalink: exclude-grep-on-ps-a-grep
+new_post_name: exclude-grep-on-ps-a-grep
 categories:
   - devops
 date: 2016-11-01 22:41:00

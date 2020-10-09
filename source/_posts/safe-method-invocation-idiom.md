@@ -5,7 +5,7 @@ tags:
   - ''
 id: 51
 updated: '2017-03-07 20:20:27'
-permalink: safe-method-invocation
+new_post_name: safe-method-invocation
 categories:
   - programming
 date: 2015-02-18 13:00:00

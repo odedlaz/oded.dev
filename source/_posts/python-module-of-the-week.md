@@ -1,7 +1,7 @@
 title: python module of the week
 id: 10
 updated: '2017-03-05 11:21:11'
-permalink: python-module-of-the-week
+new_post_name: python-module-of-the-week
 tags:
   - python
 categories:

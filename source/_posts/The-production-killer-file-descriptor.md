@@ -3,7 +3,7 @@ tags:
   - linux
 id: 128
 updated: '2017-06-20 08:49:16'
-permalink: docker-log-incident
+new_post_name: docker-log-incident
 categories:
   - devops
   - ''

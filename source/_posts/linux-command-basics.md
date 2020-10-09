@@ -1,7 +1,7 @@
 title: linux command basics
 id: 26
 updated: '2017-02-28 19:44:28'
-permalink: linux-command-basics
+new_post_name: linux-command-basics
 tags:
   - linux
   - productivity

@@ -3,7 +3,7 @@ tags:
   - python
 id: 124
 updated: '2017-06-05 11:08:01'
-permalink: python-else-keyword
+new_post_name: python-else-keyword
 categories:
   - programming
 date: 2017-06-02 17:00:00

@@ -5,7 +5,7 @@ tags:
   - ''
 id: 28
 updated: 2017-03-30 09:56:51
-permalink: master-regular-expressions
+new_post_name: master-regular-expressions
 categories:
   - programming
 date: 2017-03-07 08:41:00

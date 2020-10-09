@@ -5,7 +5,7 @@ tags:
   - ''
 id: 107
 updated: '2017-04-21 08:58:09'
-permalink: switch-is-much-more-than-a-glorified-if
+new_post_name: switch-is-much-more-than-a-glorified-if
 categories:
   - programming
 date: 2017-04-19 16:06:00

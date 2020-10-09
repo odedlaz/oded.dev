@@ -4,7 +4,7 @@ tags:
   - assembly
 id: 122
 updated: '2017-06-05 11:12:03'
-permalink: printf
+new_post_name: printf
 categories:
   - programming
 date: 2017-05-24 08:48:00

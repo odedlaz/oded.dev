@@ -3,7 +3,7 @@ tags:
   - python
 id: 59
 updated: '2017-03-28 08:41:12'
-permalink: __slots__-and-namedtuples
+new_post_name: __slots__-and-namedtuples
 categories:
   - programming
 date: 2016-11-30 23:36:00

@@ -5,7 +5,7 @@ tags:
   - ''
 id: 61
 updated: '2017-05-19 21:00:07'
-permalink: implementing-python-3-6-print-in-older-version
+new_post_name: implementing-python-3-6-print-in-older-version
 categories:
   - programming
 date: 2016-12-05 18:11:00

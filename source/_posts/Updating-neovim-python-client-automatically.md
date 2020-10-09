@@ -4,7 +4,7 @@ tags:
   - neovim
 id: 75
 updated: '2017-03-04 20:40:46'
-permalink: updating-neovim-python-client-automatically
+new_post_name: updating-neovim-python-client-automatically
 categories:
   - devops
 date: 2017-01-29 11:21:00

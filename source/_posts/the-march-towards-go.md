@@ -3,7 +3,7 @@ tags:
   - golang
 id: 18
 updated: '2017-02-09 21:52:28'
-permalink: the-march-towards-go-lang
+new_post_name: the-march-towards-go-lang
 categories:
   - thoughts
 date: 2014-07-07 15:11:00

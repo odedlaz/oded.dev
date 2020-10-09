@@ -4,7 +4,7 @@ tags:
   - ''
 id: 62
 updated: '2017-03-07 19:53:25'
-permalink: the-road-to-mastering-vim
+new_post_name: the-road-to-mastering-vim
 categories:
   - new-years-resolution
   - ''

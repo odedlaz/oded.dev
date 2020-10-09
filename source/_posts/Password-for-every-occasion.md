@@ -4,7 +4,7 @@ tags:
   - python
 id: 56
 updated: '2017-03-07 20:05:55'
-permalink: password-for-every-occasion
+new_post_name: password-for-every-occasion
 categories:
   - thoughts
   - infosec

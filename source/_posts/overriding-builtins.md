@@ -3,7 +3,7 @@ tags:
   - python
 id: 49
 updated: '2017-02-11 14:33:40'
-permalink: overriding-builtins
+new_post_name: overriding-builtins
 categories:
   - programming
 date: 2015-02-01 10:31:00

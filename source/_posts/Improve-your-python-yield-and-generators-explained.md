@@ -3,7 +3,7 @@ tags:
   - python
 id: 25
 updated: '2017-03-04 20:42:51'
-permalink: improve-your-python-yield-and-generators-explained
+new_post_name: improve-your-python-yield-and-generators-explained
 categories:
   - programming
   - ''

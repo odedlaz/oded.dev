@@ -3,7 +3,7 @@ tags:
   - linux
   - project
   - c++
-permalink: runas-tool
+new_post_name: runas-tool
 categories:
   - programming
 date: 2017-08-30 09:24:00

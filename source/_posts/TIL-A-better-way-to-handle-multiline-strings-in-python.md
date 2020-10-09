@@ -4,7 +4,7 @@ tags:
   - ''
 id: 91
 updated: '2017-03-03 15:41:27'
-permalink: python-string-tuple-syntax
+new_post_name: python-string-tuple-syntax
 categories:
   - programming
 date: 2017-03-01 08:19:00

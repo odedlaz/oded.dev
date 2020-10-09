@@ -4,7 +4,7 @@ tags:
   - idiom
 id: 71
 updated: '2017-03-07 19:29:57'
-permalink: getenv-idiom
+new_post_name: getenv-idiom
 categories:
   - programming
 date: 2017-01-15 20:41:00

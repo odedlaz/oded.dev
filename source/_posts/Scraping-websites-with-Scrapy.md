@@ -4,7 +4,7 @@ tags:
   - web-scraping
 id: 46
 updated: '2017-02-28 19:01:36'
-permalink: scraping-anonymously-with-scrapy
+new_post_name: scraping-anonymously-with-scrapy
 categories:
   - programming
 date: 2014-11-26 15:37:00

@@ -3,7 +3,7 @@ tags:
   - python
 id: 15
 updated: '2017-03-07 19:24:46'
-permalink: must-watch-python-videos
+new_post_name: must-watch-python-videos
 categories:
   - programming
 date: 2014-07-15 06:07:00

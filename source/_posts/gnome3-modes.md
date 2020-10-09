@@ -2,7 +2,7 @@ title:  GNOME Shell Modes
 tags:
   - linux
   - gnome
-permalink: gnome3-shell-modes 
+new_post_name: gnome3-shell-modes 
 categories:
   - devops
 date: 2017-08-20 20:39:00

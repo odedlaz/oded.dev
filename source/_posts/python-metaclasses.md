@@ -1,7 +1,7 @@
 title: python metaclasses
 id: 16
 updated: '2017-03-05 15:42:24'
-permalink: python-metaclasses-what-why-when-how
+new_post_name: python-metaclasses-what-why-when-how
 tags:
   - python
 categories:

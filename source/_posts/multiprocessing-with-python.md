@@ -3,7 +3,7 @@ tags:
   - python
 id: 40
 updated: '2017-03-05 10:47:25'
-permalink: multiprocessing-with-python
+new_post_name: multiprocessing-with-python
 categories:
   - programming
 date: 2014-07-08 14:56:00

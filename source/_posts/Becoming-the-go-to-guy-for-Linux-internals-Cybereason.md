@@ -3,7 +3,7 @@ tags:
   - cybereason
 id: 136
 updated: '2017-07-03 22:27:22'
-permalink: mastering-linux-performance-debugging-monitoring
+new_post_name: mastering-linux-performance-debugging-monitoring
 categories:
   - general
   - ''

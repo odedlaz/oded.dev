@@ -4,7 +4,7 @@ tags:
   - concurrency
 id: 106
 updated: '2017-07-07 16:22:14'
-permalink: python-coroutines-basic-building-blocks-for-concurrency
+new_post_name: python-coroutines-basic-building-blocks-for-concurrency
 categories:
   - programming
 date: 2017-07-05 11:27:00

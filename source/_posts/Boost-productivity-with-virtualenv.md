@@ -3,7 +3,7 @@ tags:
   - python
 id: 3
 updated: '2017-03-04 20:36:59'
-permalink: python-developer-you-must-work-with-virtualenv
+new_post_name: python-developer-you-must-work-with-virtualenv
 categories:
   - programming
 date: 2014-07-09 07:15:00

@@ -5,7 +5,7 @@ tags:
   - linux
 id: 101
 updated: '2017-05-10 20:25:35'
-permalink: bash-pitfalls-how-to-avoid-them
+new_post_name: bash-pitfalls-how-to-avoid-them
 categories:
   - devops
   - ''

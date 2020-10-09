@@ -4,7 +4,7 @@ tags:
   - project
 id: 63
 updated: '2017-03-07 19:53:52'
-permalink: tpl-announcement
+new_post_name: tpl-announcement
 categories:
   - programming
 date: 2016-12-15 09:36:00

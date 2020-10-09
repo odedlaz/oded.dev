@@ -4,7 +4,7 @@ tags:
   - ghost
 id: 92
 updated: '2017-05-23 11:47:48'
-permalink: poor-mans-daily-blog-backups
+new_post_name: poor-mans-daily-blog-backups
 categories:
   - devops
 date: 2017-03-04 19:40:00

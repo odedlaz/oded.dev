@@ -1,7 +1,7 @@
 title: Internals of python string interning
 id: 12
 updated: '2017-03-05 10:51:33'
-permalink: internals-of-python-string-interning
+new_post_name: internals-of-python-string-interning
 tags:
   - python
 categories:

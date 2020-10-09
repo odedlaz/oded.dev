@@ -5,7 +5,7 @@ tags:
   - project
 id: 60
 updated: '2017-03-07 19:59:24'
-permalink: uberlogs-announcement
+new_post_name: uberlogs-announcement
 categories:
   - programming
 date: 2016-11-30 23:46:00

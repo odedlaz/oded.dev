@@ -5,7 +5,7 @@ tags:
   - lsp
 id: 99
 updated: '2017-03-28 08:37:21'
-permalink: language-server-protocol
+new_post_name: language-server-protocol
 categories:
   - general
   - ''

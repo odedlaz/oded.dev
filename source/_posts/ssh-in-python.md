@@ -3,7 +3,7 @@ tags:
   - python
 id: 38
 updated: '2017-03-05 15:47:06'
-permalink: ssh-in-python-client-server-mocking-a-suprise
+new_post_name: ssh-in-python-client-server-mocking-a-suprise
 categories:
   - programming
 date: 2014-08-10 07:24:00

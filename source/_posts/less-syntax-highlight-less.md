@@ -1,7 +1,7 @@
 title: less + syntax highlight > less
 id: 66
 updated: '2017-03-07 19:37:38'
-permalink: less-and-syntax-highlighting-it
+new_post_name: less-and-syntax-highlighting-it
 tags:
   - linux
   - productivity

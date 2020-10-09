@@ -1,7 +1,7 @@
 title: Migrating Fedora from BIOS to UEFI
 tags:
   - linux
-permalink: fedora-bios-to-uefi
+new_post_name: fedora-bios-to-uefi
 categories:
   - devops
 date: 2017-11-13 17:21:13

@@ -4,7 +4,7 @@ tags:
   - productivity
 id: 50
 updated: '2017-06-05 11:10:35'
-permalink: fuck-alias
+new_post_name: fuck-alias
 categories:
   - devops
   - ''

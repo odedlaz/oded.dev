@@ -1,7 +1,7 @@
 title: python & the global interpreter lock
 id: 20
 updated: '2017-03-05 10:44:15'
-permalink: python-the-global-interpreter-lock-gil
+new_post_name: python-the-global-interpreter-lock-gil
 tags:
   - python
 categories:

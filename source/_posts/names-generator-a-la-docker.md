@@ -5,7 +5,7 @@ tags:
   - golang
 id: 132
 updated: '2017-06-20 09:03:20'
-permalink: names-generator-a-la-docker
+new_post_name: names-generator-a-la-docker
 categories:
   - programming
 date: 2017-06-20 08:03:00

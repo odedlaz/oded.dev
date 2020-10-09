@@ -4,7 +4,7 @@ tags:
   - gici
 id: 134
 updated: '2017-06-23 14:05:17'
-permalink: goodbye-gartner-hello-cybereason
+new_post_name: goodbye-gartner-hello-cybereason
 categories:
   - announcement
   - general

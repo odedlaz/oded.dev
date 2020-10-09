@@ -3,7 +3,7 @@ tags:
   - h.264
 id: 77
 updated: '2017-03-07 20:06:34'
-permalink: h-264-is-magic
+new_post_name: h-264-is-magic
 categories:
   - general
 date: 2016-11-07 10:25:00

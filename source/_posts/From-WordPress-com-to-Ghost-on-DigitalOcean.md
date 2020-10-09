@@ -4,7 +4,7 @@ tags:
   - digitalocean
 id: 86
 updated: '2017-02-27 15:21:27'
-permalink: from-wordpress-com-to-ghost
+new_post_name: from-wordpress-com-to-ghost
 categories:
   - announcement
   - blog

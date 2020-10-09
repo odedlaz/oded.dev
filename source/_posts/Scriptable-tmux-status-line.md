@@ -5,7 +5,7 @@ tags:
   - project
 id: 73
 updated: '2017-03-07 19:26:46'
-permalink: tmux-status-variables-plugin
+new_post_name: tmux-status-variables-plugin
 categories:
   - devops
   - ''

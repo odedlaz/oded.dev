@@ -4,7 +4,7 @@ tags:
   - ''
 id: 98
 updated: '2017-03-20 15:01:33'
-permalink: can-you-spot-the-bug
+new_post_name: can-you-spot-the-bug
 categories:
   - programming
 date: 2017-03-19 18:45:00

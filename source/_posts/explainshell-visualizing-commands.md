@@ -4,7 +4,7 @@ tags:
   - productivity
 id: 78
 updated: 2017-03-13 22:16:18
-permalink: explainshell
+new_post_name: explainshell
 categories:
   - devops
   - ''

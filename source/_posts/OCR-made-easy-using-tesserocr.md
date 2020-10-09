@@ -4,7 +4,7 @@ tags:
   - ocr
 id: 69
 updated: '2017-03-07 19:34:20'
-permalink: ocr-made-easy-using-tesserocr
+new_post_name: ocr-made-easy-using-tesserocr
 categories:
   - programming
 date: 2017-01-08 10:09:00

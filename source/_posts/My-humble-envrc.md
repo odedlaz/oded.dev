@@ -5,7 +5,7 @@ tags:
   - productivity
 id: 95
 updated: '2017-03-16 10:13:57'
-permalink: my-humble-envrc
+new_post_name: my-humble-envrc
 categories:
   - devops
 date: 2017-03-14 13:45:00

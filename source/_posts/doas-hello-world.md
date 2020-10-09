@@ -2,7 +2,7 @@ title: Everything that is wrong with sudo, and how I'm planning to fix it
 tags:
   - c++
   - project
-permalink: doas-linux
+new_post_name: doas-linux
 categories:
   - programming
 date: 2017-10-21 00:37:00

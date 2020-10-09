@@ -1,7 +1,7 @@
 title: My take on Modern C++ 
 tags:
   - c++
-permalink: modern-cpp
+new_post_name: modern-cpp
 categories:
   - programming
 date: 2017-11-06 09:27:12

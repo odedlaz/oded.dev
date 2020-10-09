@@ -5,7 +5,7 @@ tags:
   - optimization
 id: 117
 updated: '2017-05-21 16:15:58'
-permalink: optimizations-for-the-brave
+new_post_name: optimizations-for-the-brave
 categories:
   - programming
 date: 2017-05-19 18:45:00

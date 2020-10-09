@@ -3,7 +3,7 @@ tags:
   - python
 id: 19
 updated: '2017-02-09 22:00:53'
-permalink: args-and-kwargs
+new_post_name: args-and-kwargs
 categories:
   - programming
 date: 2014-07-08 14:45:00
