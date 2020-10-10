@@ -18,8 +18,8 @@ var yaml = require('yamljs');
 var URL = require('url-parse');
 var autoprefixer = require('gulp-autoprefixer');
 var cloudflare = require('gulp-cloudflare');
-// var request = require('request');
-// var browserify = require('gulp-browserify');
+var browserify = require('gulp-browserify');
+var request = require('request');
 
 var hexo = new Hexo(process.cwd(), {});
 
@@ -42,18 +42,23 @@ function exec_hexo(fn, args, cb) {
 //   return request({url : url + process.env.IFTTT_KEY, method : 'POST'},
 //                  (err, resp, body) => { console.log(body); });
 // });
-//
+
 gulp.task('hexo-deploy', (cb) => { exec_hexo('deploy', {}, cb); });
 
 gulp.task('purge-cf-cache', (cb) => {
-  var url = new URL(yaml.load('_config.yml').url);
-  cloudflare({
-    email : process.env.CF_EMAIL,
-    token : process.env.CF_AUTH_KEY,
-    domain : url.hostname,
-    action : 'fpurge_ts',
-    skip : false
-  });
+   return request.post({
+          url: 'https://api.cloudflare.com/client/v4/zones/' + process.env.CF_ZONE_ID + '/purge_cache',
+          headers: {
+                   'X-Auth-Email': process.env.CF_EMAIL,
+                   'X-Auth-Key': process.env.CF_AUTH_KEY,
+                   'Content-Type': 'application/json'
+                 },
+          body: JSON.stringify({'purge_everything': true})
+        }).on('response', function(resp) {
+               if (resp.statusCode != 200) {
+                  console.error("unable to purge cloudflare cache: " + resp.statusCode)
+               }
+             });
 });
 
 gulp.task('hexo-clean', (cb) => { exec_hexo('clean', {}, cb); })
@@ -145,15 +150,15 @@ gulp.task('fix-css-font-path', () => {
       .pipe(gulp.dest('./public/css'));
 });
 
-// gulp.task('browserify', (cb) => {
-//   pump(
-//       [
-//         gulp.src('./public/js/bootstrap.js'),
-//         browserify({insertGlobals : true, debug : true}), uglify(),
-//         gulp.dest('./public/js')
-//       ],
-//       cb);
-// });
+gulp.task('browserify', (cb) => {
+  pump(
+      [
+        gulp.src('./public/js/bootstrap.js'),
+        browserify({insertGlobals : true, debug : true}), uglify(),
+        gulp.dest('./public/js')
+      ],
+      cb);
+});
 
 gulp.task('fix-katex-css-font-path', () => {
   var url = yaml.load('_config.yml').url;
@@ -162,16 +167,10 @@ gulp.task('fix-katex-css-font-path', () => {
       .pipe(gulp.dest('./public/css'));
 });
 
-// gulp.task('build', (cb) => {runSequence('hexo-clean', 'hexo-generate',
-//                                         [
-//                                           'browserify', 'fix-css-font-path',
-//                                           'fix-katex-css-font-path',
-//                                         ],
-//                                         cb)});
-
 gulp.task('build', gulp.series('hexo-clean',
                                'hexo-generate',
-                               gulp.parallel('fix-css-font-path',
+                               gulp.parallel('browserify',
+                                              'fix-css-font-path',
                                              'fix-katex-css-font-path')));
 
 gulp.task('default', gulp.series('build', 'text-compress'));
