@@ -23,7 +23,7 @@ article:
     share: 'Share'
     catalogue: 'Catalogue'
 profile:
-    follow: 'FOLLOW'
+    about: 'ABOUT'
     post: 'post'
     tag: 'tag'
     posts: 'posts'

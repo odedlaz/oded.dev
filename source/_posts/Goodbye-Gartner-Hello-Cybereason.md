@@ -63,7 +63,7 @@ Working with [Michael](https://www.linkedin.com/in/michael-gelfand-88a9a33/) has
 I love [GICI](http://gici.co.il). [GICI](http://gici.co.il) is literally my second home. I love the people, the products, the management, the perks. I even love the building. Did I forget to mention that **[WE ARE HIRING](https://www.linkedin.com/jobs/search/?f_C=2078&f_L=il:0)**?
 
 
-The problem is that after three years, I got into a comfort zone. If you ever visited my [about page](/whoami/) you've probably noticed [Rumi](https://en.wikipedia.org/wiki/Rumi)'s quote at the beginning of the page: *"Run from what's comfortable. Forget safety. Live where you fear to live. Destroy your reputation. Be notorious."*
+The problem is that after three years, I got into a comfort zone. If you ever visited my [about page](/about-me/) you've probably noticed [Rumi](https://en.wikipedia.org/wiki/Rumi)'s quote at the beginning of the page: *"Run from what's comfortable. Forget safety. Live where you fear to live. Destroy your reputation. Be notorious."*
 
 As much as I love [GICI](http://gici.co.il), it was too comfortable. Moreover, being a security fanatic, I had a dream of moving to the cyber security field.
 
