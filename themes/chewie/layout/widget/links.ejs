@@ -1,11 +1,11 @@
-<% if (site.posts.length) { %>
+<% if (site.posts.length && theme.links) { %>
     <div class="widget-wrap widget-list">
         <h3 class="widget-title"><%= __('widget.links') %></h3>
         <div class="widget">
             <ul>
-                <% for (var i in theme.miscellaneous.links) { %>
+                <% for (var i in theme.links) { %>
                     <li>
-                        <a href="<%- theme.miscellaneous.links[i] %>"><%= i %></a>
+                        <a href="<%- theme.links[i] %>"><%= i %></a>
                     </li>
                 <% } %>
             </ul>

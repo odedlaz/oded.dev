@@ -2,7 +2,6 @@
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <head>
    <%- partial('common/head') %>
-   <%- partial('plugin/styles') %>
    <%- partial('comment/styles') %>
    <%- partial('common/fonts') %>
 
@@ -22,8 +21,10 @@
             <% } %>
         </div>
 
-      <!-- not a script, not a style -->
-      <%- partial('search/insight') %>
+      <% if (theme.search) { %>
+         <!-- not a script, not a style -->
+         <%- partial('search/insight') %>
+      <% } %>
       <%- partial('common/footer') %>
     </div>
    <%- partial('common/scripts') %>
