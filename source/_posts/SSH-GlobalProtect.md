@@ -9,7 +9,7 @@ Hey everyone! today I'd like to tell you a small story about a guy that's been s
 
 TLDR: can't access corporate resources? use static routing to redirect connections through the corporate VPN.
 
-Ok, so the story goes like this: I work at a Big-Corp, really big corp. some people might've heard about it: Microsoft. My team has a couple of VMs deployed on Azure which are governed by an internal service that makes sure that nobody can access them outside the corporate VPN. The service thus a bunch more things, but the gist is that one can't alter the network security group ("firewall" rules) such that outsiders can access the machine.
+Ok, so the story goes like this: I work at a Big-Corp & my team has a couple of VMs deployed on Azure which are governed by an internal service that makes sure that nobody can access them outside the corporate VPN. The service thus a bunch more things, but the gist is that one can't alter the network security group ("firewall" rules) such that outsiders can access the machine.
 
 That's pretty neat, but problematic when you work from home. Why? not all network originating from our machine goes through the corporate network. In other words, when I try to access any resource that belongs to my team, the IP that's being used is the one that belongs to my ISP --> forbidden.
 
@@ -26,7 +26,7 @@ default            10.0.0.1           UGSc         en0
 127.0.0.1          127.0.0.1          UH           lo0       
 ```
 
-I truncated some values, but the gist is: anything that belongs to localhost -> use the `lo0` interface and everything else go to the default, which is `10.0.0.1`. If I turn on the VPN, a new virtual network device appears (a.k.a: [tun device](https://en.wikipedia.org/wiki/TUN/TAP)) and many (many!) more routes show up:
+I truncated some values, but the gist is: any traffic going to 127.0.0.0/8 (255.0.0.0) -> use the `lo0` interface, and everything else go to the default, which is `en0` or `10.0.0.1`. If I turn on the VPN, a new virtual network device appears (a.k.a: [tun device](https://en.wikipedia.org/wiki/TUN/TAP)) and many (many!) more routes show up:
 
 ```bash
 $ netstat -rn
@@ -59,7 +59,7 @@ $ ssh -J otheruser@jumpbox user@remote-pc
 
 Hack, why should we need another PC? why not just route traffic to the VPN? should be easy. well, it is, all we need to do is a simple static route:
 ```
-$  sudo route -n add -net <our-public-ip> <vpn-gateway-ip>
+$  sudo route -n add -net <remote-pc> <vpn-gateway-ip>
 ```
 
 That's easy enough, but I honestly don't want to add a static route everytime I want to connect to a remote resource. ITS A PAIN IN THE ASS! Why not write script to do that for me?
@@ -87,13 +87,13 @@ Let's tackle the first issue: I guess that GlobalConnect has logs somewhere or a
 			<dict>
                 ... many keys ...
 				<key>PreferredIPV6_11de985a54adccec223de2b24075693f</key>
-				<string>2a01:110:8:6:8000::5</string>
+				<string>3b23:110:8:6:6000::5</string>
 				<key>PreferredIPV6_234d2be7acce021cd9e49f5c5a7bc41</key>
-				<string>2a01:110:68:41:8000::9</string>
+				<string>3b23:110:68:41:6000::9</string>
 				<key>PreferredIPV6_93bb97413136ce437a86418851ac5e99</key>
-				<string>2404:f801:50:a:8000::84</string>
+				<string>2404:f801:50:a:6000::84</string>
 				<key>PreferredIPV6_d1ded811e3311a45e766352fca97c7cb</key>
-				<string>2a01:110:20:10:8000::147</string>
+				<string>3b23:110:20:10:6000::147</string>
 				<key>PreferredIP_11de985a54adccec223de2b24075693f</key>
 				<string>10.10.1.35</string>
 				<key>PreferredIP_234d2be7acce021cd9e49f5c5a7bc41</key>
